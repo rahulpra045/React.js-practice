@@ -4,6 +4,7 @@ import Counter from './Counter'
 import Formreal from './Form'
 import Listitem from './List-item'
 import Togglebox from './Checkbox-toggle'
+import Toggleradio from './radio-toggle'
 export default function App () {
   return (
     <div>
@@ -12,6 +13,7 @@ export default function App () {
       <Formreal />
       <Listitem />
       <Togglebox/>
+      <Toggleradio/>
     </div>
   )
 }
