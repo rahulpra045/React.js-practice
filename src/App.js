@@ -6,6 +6,7 @@ import Listitem from './4_List-item'
 import Togglebox from './5.1_Checkbox-toggle'
 import Toggleradio from './5.2_radio-toggle'
 import Apicall from './6_APi'
+import Timer from './7_timer'
 export default function App () {
   return (
     <div>
@@ -16,6 +17,7 @@ export default function App () {
       <Togglebox/>
       <Toggleradio />
       <Apicall/>
+      <Timer/>
     </div>
   )
 }
