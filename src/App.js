@@ -10,6 +10,7 @@ import Timer from './7_timer'
 import Todo from './8_to-do'
 import Bgcolorchange from './9_bgcolor_change'
 import Routepage from './10_Route'
+import Quote from './11_Quote'
 export default function App () {
   return (
     <div>
@@ -23,7 +24,8 @@ export default function App () {
       <Timer />
       <Todo />
       <Bgcolorchange />
-      <Routepage/>
+      <Routepage />
+      <Quote/>
     </div>
   )
 }
