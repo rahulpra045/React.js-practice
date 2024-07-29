@@ -7,6 +7,7 @@ import Togglebox from './5.1_Checkbox-toggle'
 import Toggleradio from './5.2_radio-toggle'
 import Apicall from './6_APi'
 import Timer from './7_timer'
+import Todo from './8_to-do'
 export default function App () {
   return (
     <div>
@@ -17,7 +18,8 @@ export default function App () {
       <Togglebox/>
       <Toggleradio />
       <Apicall/>
-      <Timer/>
+      <Timer />
+      <Todo/>
     </div>
   )
 }
