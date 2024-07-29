@@ -8,6 +8,7 @@ import Toggleradio from './5.2_radio-toggle'
 import Apicall from './6_APi'
 import Timer from './7_timer'
 import Todo from './8_to-do'
+import Bgcolorchange from './9_bgcolor_change'
 export default function App () {
   return (
     <div>
@@ -19,7 +20,8 @@ export default function App () {
       <Toggleradio />
       <Apicall/>
       <Timer />
-      <Todo/>
+      <Todo />
+      <Bgcolorchange/>
     </div>
   )
 }
