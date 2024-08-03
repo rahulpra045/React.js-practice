@@ -12,6 +12,7 @@ import Bgcolorchange from './9_bgcolor_change'
 import Routepage from './10_Route'
 import Quote from './11_Quote'
 import ImageUploader from './12_Image_Uploader'
+import LoginRegistration from './13_LoginRegistration'
 export default function App () {
   return (
     <div>
@@ -27,7 +28,8 @@ export default function App () {
       <Bgcolorchange />
       <Routepage />
       <Quote />
-      <ImageUploader/>
+      <ImageUploader />
+      <LoginRegistration/>
     </div>
   )
 }
