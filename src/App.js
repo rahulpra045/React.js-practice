@@ -13,6 +13,7 @@ import Routepage from './10_Route'
 import Quote from './11_Quote'
 import ImageUploader from './12_Image_Uploader'
 import LoginRegistration from './13_LoginRegistration'
+import WeatherLocation from './14_weather_users_Location'
 export default function App () {
   return (
     <div>
@@ -29,7 +30,8 @@ export default function App () {
       <Routepage />
       <Quote />
       <ImageUploader />
-      <LoginRegistration/>
+      <LoginRegistration />
+      <WeatherLocation/>
     </div>
   )
 }
