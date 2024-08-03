@@ -14,7 +14,7 @@ import Quote from './11_Quote'
 import ImageUploader from './12_Image_Uploader'
 import LoginRegistration from './13_LoginRegistration'
 import WeatherLocation from './14_weather_users_Location'
-import ResetTimer from './7.1_timer_reset'
+import ResetTimer from './7.2_timer_reset'
 export default function App () {
   return (
     <div>
