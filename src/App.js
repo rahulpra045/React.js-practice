@@ -15,7 +15,10 @@ import ImageUploader from './12_Image_Uploader'
 import LoginRegistration from './13_LoginRegistration'
 import WeatherLocation from './14_weather_users_Location'
 import ResetTimer from './7.2_timer_reset'
-export default function App () {
+import SearchFilter from './15_Search_Filter'
+export default function App() {
+  
+  const items = ['Item 1', 'Item 2', 'Item 3', 'Another 1','Rahul','Betu'];
   return (
     <div>
       <HelloWorld />
@@ -33,7 +36,8 @@ export default function App () {
       <Quote />
       <ImageUploader />
       <LoginRegistration />
-      <WeatherLocation/>
+      <WeatherLocation />
+      <SearchFilter items={items} />
     </div>
   )
 }
