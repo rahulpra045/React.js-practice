@@ -17,6 +17,9 @@ import WeatherLocation from './14_weather_users_Location'
 import ResetTimer from './7.2_timer_reset'
 import SearchFilter from './15_Search_Filter'
 import Pagination from './16_Pagination'
+import ColorPicker from './17_Color_Picker'
+
+
 export default function App() {
   
   const items = ['Item 1', 'Item 2', 'Item 3', 'Another 1','Rahul','Betu'];
@@ -40,6 +43,7 @@ export default function App() {
       <WeatherLocation />
       <SearchFilter items={items} />
       <Pagination items={items} itemsPerPage={2} />
+      <ColorPicker/>
     </div>
   )
 }
