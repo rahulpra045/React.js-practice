@@ -19,6 +19,7 @@ import SearchFilter from './15_Search_Filter'
 import Pagination from './16_Pagination'
 import ColorPicker from './17_Color_Picker'
 import NavBar from './18_NavBar'
+import Themes from './19_Themes'
 
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
   const items = ['Item 1', 'Item 2', 'Item 3', 'Another 1','Rahul','Betu'];
   return (
     <div>
+      <Themes/>
       <HelloWorld />
       <Counter />
       <Formreal />
@@ -45,7 +47,8 @@ export default function App() {
       <SearchFilter items={items} />
       <Pagination items={items} itemsPerPage={2} />
       <ColorPicker />
-      <NavBar/>
+      <NavBar />
+      
     </div>
   )
 }
