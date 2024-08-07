@@ -18,6 +18,7 @@ import ResetTimer from './7.2_timer_reset'
 import SearchFilter from './15_Search_Filter'
 import Pagination from './16_Pagination'
 import ColorPicker from './17_Color_Picker'
+import NavBar from './18_NavBar'
 
 
 export default function App() {
@@ -43,7 +44,8 @@ export default function App() {
       <WeatherLocation />
       <SearchFilter items={items} />
       <Pagination items={items} itemsPerPage={2} />
-      <ColorPicker/>
+      <ColorPicker />
+      <NavBar/>
     </div>
   )
 }

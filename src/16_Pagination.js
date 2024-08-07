@@ -1,6 +1,6 @@
 //pagination is to show the only list items which are required to show per page
 import React, { useState } from 'react'
-import './16_Pagination.css';
+import './styles/16_Pagination.css';
 
 const Pagination = ({ items, itemsPerPage }) => {
     
